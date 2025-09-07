@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linhas Trânsito</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚍 Linhas Trânsito</h1>
+  </header>
+
+  <main>
+    <div class="buttons">
+      <button id="btnPortugal" class="pt">🇵🇹 Portugal</button>
+      <button id="btnEspanha" class="es">🇪🇸 Espanha</button>
+    </div>
+
+    <input type="text" id="search" placeholder="🔎 Pesquisar cidade...">
+
+    <ul id="cityList"></ul>
+
+    <div id="infoBox" class="hidden">
+      <h2 id="cityName"></h2>
+      <p><strong>Linha(s):</strong> <span id="lineInfo"></span></p>
+      <button id="closeInfo">Fechar</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
